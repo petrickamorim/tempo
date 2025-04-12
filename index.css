@@ -1,12 +1,25 @@
-.container {
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  padding-bottom: 50%;
+.weather-info, .details {
+    display: none;  
 }
-.search-box {
-  display: flex;
-  margin-top: 25px;
-  margin-bottom: 25px;
+.container {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+background-color: #f0f0f0;
+}
+.weather-card {
+background-color: #fff;
+padding: 20px;
+border-radius: 10px;
+box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+width: 350px;
+text-align: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.buttonBusca{
+    cursor: pointer;
 }

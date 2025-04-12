@@ -5,34 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TempoCerto</title>
     <link rel="stylesheet" href="index.css" />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   </head>
   <body>
     <div class="container">
-      <div class="weather-card">
+      <div class="weather-card" id="weather-card">
         <div class="search-box">
           <input
             type="text"
             placeholder="Digite o nome da cidade..."
             id="city"
           />
-          <button onclick="buscarClima()">🔍</button>
+          <button class="buttonBusca" onclick="buscarClima()">🔍</button>
         </div>
 
         <div class="weather-info">
-          <h1 id="cityName">Kraków</h1>
-          <p id="description">Clear</p>
+          <h1 id="cityName"></h1>
+          <p id="description"></p>
           <div class="icon"></div>
-          <h2 id="temperatura">18°C</h2>
+          <h2 id="temperatura"></h2>
         </div>
 
         <div class="details">
           <div class="detalhes">
-            umidade <br />
-            <span id="umidade">53</span>
+            <span id="umidade">💧 Umidade: --%</span>
           </div>
           <div class="detail">
-            Wind <br />
-            <span id="vento">13km</span>
+            <span id="vento">💨 Vento: -- km/h</span>
           </div>
         </div>
       </div>
