@@ -1,7 +1,6 @@
 async function buscarClima() {
     const cidade = document.getElementById('city').value;
-    const apiKey = '1994bc38783dd087e379c868e50e51a5';
-    const url = `https://api.openweathermap.org/data/2.5/weather?q=${cidade}&appid=${apiKey}&units=metric&lang=pt_br`;
+    const url = `http://localhost:3000/clima?city=${cidade}`;
   
     try {
       const res = await fetch(url);
