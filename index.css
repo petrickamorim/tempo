@@ -13,15 +13,14 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  gap: 20px;
 }
 
 .weather-card {
   background: linear-gradient(135deg, #1f1f1f, #3a3a3a);
-  border: 2px solid #800080; /* Roxo */
+  border: 2px solid #800080;
   border-radius: 15px;
-  box-shadow: 0 0 20px rgba(128, 0, 128, 0.5); /* Roxo */
-  padding: 30px;
+  box-shadow: 0 0 20px rgba(128, 0, 128, 0.5);
+  padding: 30px 0;
   width: 400px;
   text-align: center;
   display: flex;
@@ -30,18 +29,18 @@ body {
   align-items: center;
   font-family: "Rajdhani", sans-serif;
   font-size: 18px;
-  color: #ffffff; /* Roxo */
+  color: #ffffff;
 }
 
 .weather-card:hover {
   background: linear-gradient(135deg, #3a3a3a, #1f1f1f);
-  box-shadow: 0 0 30px rgba(128, 0, 128, 0.8); /* Roxo */
+  box-shadow: 0 0 30px rgba(128, 0, 128, 0.8);
   transition: 0.5s;
 }
 
 .search-box {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
   gap: 15px;
   width: 100%;
@@ -51,18 +50,18 @@ body {
   width: 250px;
   height: 40px;
   border-radius: 20px;
-  border: 2px solid #800080; /* Roxo */
+  border: 2px solid #800080;
   background: transparent;
   color: #ffffff;
   padding-left: 15px;
   font-family: "Rajdhani", sans-serif;
   font-size: 16px;
-  box-shadow: 0 0 10px rgba(128, 0, 128, 0.5); /* Roxo */
+  box-shadow: 0 0 10px rgba(128, 0, 128, 0.5);
 }
 
 .inputBusca:focus {
   outline: none;
-  box-shadow: 0 0 15px rgba(128, 0, 128, 0.8); /* Roxo */
+  box-shadow: 0 0 15px rgba(128, 0, 128, 0.8);
 }
 
 .buttonBusca {
@@ -70,20 +69,19 @@ body {
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  border: 2px solid #800080; /* Roxo */
+  border: 2px solid #800080;
   background: transparent;
-  color: #800080; /* Roxo */
-  font-size: 20px;
+  color: #800080;
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: 0 0 10px rgba(128, 0, 128, 0.5); /* Roxo */
+  box-shadow: 0 0 10px rgba(128, 0, 128, 0.5);
 }
 
 .buttonBusca:hover {
-  background: #800080; /* Roxo */
+  background: #800080;
   color: #000000;
-  box-shadow: 0 0 20px rgba(128, 0, 128, 0.8); /* Roxo */
+  box-shadow: 0 0 20px rgba(128, 0, 128, 0.8);
   transition: 0.3s;
 }
 
@@ -93,7 +91,7 @@ body {
   flex-direction: column;
   align-items: center;
   gap: 10px;
-  color: #ffffff; /* Roxo */
+  color: #ffffff;
 }
 
 .details {
@@ -110,10 +108,10 @@ p {
 
 h1 {
   font-size: 28px;
-  text-shadow: 0 0 10px rgba(128, 0, 128, 0.932); /* Roxo */
+  text-shadow: 0 0 10px rgba(128, 0, 128, 0.932);
 }
 
 h2 {
   font-size: 28px;
-  text-shadow: 0 0 10px rgba(128, 0, 128, 0.932); /* Roxo */
+  text-shadow: 0 0 10px rgba(128, 0, 128, 0.932);
 }
