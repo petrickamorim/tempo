@@ -14,7 +14,7 @@ body::before {
     transparent 10%
   );
   background-size: 45px 50px;
-  animation: drift 1s infinite linear;
+  animation: drift 0.5s infinite linear;
   z-index: -1;
 }
 
@@ -61,6 +61,7 @@ body {
 }
 
 .weather-card:hover {
+  background: linear-gradient(135deg, #3a3a3a, #1f1f1f);
   transform: scale(1.1); /* Aumenta o tamanho */
   box-shadow: 0 0 40px rgba(128, 0, 128, 0.8); /* Intensifica a sombra */
 }
@@ -70,7 +71,7 @@ body {
 }
 
 .weather-card:hover * {
-  transform: scale(1.02); /* Aumenta levemente os elementos internos */
+  transform: scale(1.01); /* Aumenta levemente os elementos internos */
 }
 
 .search-box {
